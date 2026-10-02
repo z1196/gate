@@ -2,8 +2,9 @@ name: VPN Gate Node Check
 
 on:
   # 定时检测: 默认每 30 分钟一次。改成每 60 分钟: cron: "0 * * * *"
+  # 定时检测: 改为每天北京时间 9:15 和 21:15 各执行一次（间隔 12 小时）
   schedule:
-    - cron: "0 * * * *"
+    - cron: "15 1,13 * * *"
   workflow_dispatch:
 
 permissions:
