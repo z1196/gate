@@ -51,7 +51,7 @@ DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = ""
+DEFAULT_OPTIMAL_API = "https://cf.090227.xyz/ct?ips=6&port=443,https://cf.090227.xyz/cu?port=443,https://cf.090227.xyz/cmcc?ips=8&port=443"
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
@@ -59,12 +59,34 @@ PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
     "saas.sin.fan:443",
-    "www.mfyx.cn:443",
-    "cf.nyanya.moe:443",
-    "cf.877774.xyz:443",
     "cdn.204910.best:443",
-    "cdn.ctn32.us.kg:443",
+    "www.mfyx.cn:443",
     "p.etime.vip:443",
+    "cdn.ctn32.us.kg:443",
+    "cf.877774.xyz:443",
+    "spring.io:443",
+    "cf.nyanya.moe:443",
+    "www.sloomb.com:443",
+    "op.chinwa.eu.cc:443",
+    "www.leics.police.uk:443",
+    "securecircle.com:443",
+    "www.shopify.com:443",
+    "www.carousell.sg:443",
+    "www.dbs.com.sg:443",
+    "openai.com:443",
+    "linear.app:443",
+    "www.bilibili.com:443",
+    "uspto.gov:443",
+    "www.vmware.com:443",
+    "stlouiscountymo.gov:443",
+    "jojolsj.jojojing.top:443",
+    "www.visa.com.au:443",
+    "ping.pe:443",
+    "s.ee:443",
+    "dx.doi.org:443",
+    "www.doiting.com:443",
+    "kaspa.stream:443",
+    "www.pixelexperience.org:443",
     "cmcc.vvvv.ee:443",
     "cfsaas.080112.xyz:443",
     "cdn.aneko.ink:443",
